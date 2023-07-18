@@ -1,6 +1,7 @@
 # Local .terraform directories
 **/.terraform/*
 
+terraform-gcp/lemon-project-credentials.json
 # .tfstate files
 *.tfstate
 *.tfstate.*
