@@ -5,7 +5,7 @@ Desenvolver uma arquitetura para extrair dados públicos da ANEEL com objetivo d
 
 ## Arquitetura utilizando AWS
 
-![image](https://github.com/Gabrielvinicius27/lemon_aneel_data_analysis/images/arquitatura_2.png)
+![image](https://github.com/Gabrielvinicius27/lemon_aneel_data_analysis/blob/main/images/arquitetura_2.png)
 
 1.	**API Gateway**: Configurar APIs e autenticação, por exemplo API da ANEEL.
 2.	**Lambda**: Utilizando uma abordargem serverless podemos reduzir custos e aproveitar as integrações com outros serviços da AWS. 
@@ -19,7 +19,7 @@ Desenvolver uma arquitetura para extrair dados públicos da ANEEL com objetivo d
 
 ## Arquitetura utilizando GCP
 
-![image](https://github.com/Gabrielvinicius27/lemon_aneel_data_analysis/images/arquitatura_1.png)
+![image](https://github.com/Gabrielvinicius27/lemon_aneel_data_analysis/blob/main/images/arquitetura_1.png)
 
 Aqui temos uma abordagem mais simples seguindo o modelo Serverless.
  
