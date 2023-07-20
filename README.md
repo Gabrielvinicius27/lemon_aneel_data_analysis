@@ -5,7 +5,7 @@ Desenvolver uma arquitetura para extrair dados públicos da ANEEL com objetivo d
 
 ## Arquitetura utilizando AWS
 
-![image](https://github.com/Gabrielvinicius27/lemon_aneel_data_analysis/assets/49615846/90a69a65-e894-4fa8-a72d-5821dbeddc3a)
+![image](https://github.com/Gabrielvinicius27/lemon_aneel_data_analysis/images/arquitatura_2.png)
 
 1.	**API Gateway**: Configurar APIs e autenticação, por exemplo API da ANEEL.
 2.	**Lambda**: Utilizando uma abordargem serverless podemos reduzir custos e aproveitar as integrações com outros serviços da AWS. 
@@ -19,7 +19,7 @@ Desenvolver uma arquitetura para extrair dados públicos da ANEEL com objetivo d
 
 ## Arquitetura utilizando GCP
 
-![image](https://github.com/Gabrielvinicius27/lemon_aneel_data_analysis/assets/49615846/a92a5b56-dc49-4b97-a9e7-50c284364d55)
+![image](https://github.com/Gabrielvinicius27/lemon_aneel_data_analysis/images/arquitatura_1.png)
 
 Aqui temos uma abordagem mais simples seguindo o modelo Serverless.
  
@@ -32,10 +32,10 @@ Aqui temos uma abordagem mais simples seguindo o modelo Serverless.
 ## Exemplo de extração utilizando dataproc, GCS -> Bigquery
 
 Para iniciar o lote Serverless é necessário enviar este comando, isso pode ser feito diretamente no cloud shell ou então através de cloud function:
-![carbon (1)](https://github.com/Gabrielvinicius27/lemon_aneel_data_analysis/assets/49615846/25db85ce-3432-486a-9005-7540eb98ed10)
+![image](https://github.com/Gabrielvinicius27/lemon_aneel_data_analysis/images/carbon (1).png)
 
 O arquivo Python está armazenado em um bucket:
-![carbon (2)](https://github.com/Gabrielvinicius27/lemon_aneel_data_analysis/assets/49615846/e638e45c-5cba-4a98-8ec1-9a95a868cd8d)
+![image](https://github.com/Gabrielvinicius27/lemon_aneel_data_analysis/images/carbon (2).png)
 
 ## Próximos passos
 * Provisonar recursos utilizando terraform para termos infra as code.
