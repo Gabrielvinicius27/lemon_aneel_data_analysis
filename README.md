@@ -32,10 +32,10 @@ Aqui temos uma abordagem mais simples seguindo o modelo Serverless.
 ## Exemplo de extração utilizando dataproc, GCS -> Bigquery
 
 Para iniciar o lote Serverless é necessário enviar este comando, isso pode ser feito diretamente no cloud shell ou então através de cloud function:
-![image](https://github.com/Gabrielvinicius27/lemon_aneel_data_analysis/images/carbon (1).png)
+![image](https://github.com/Gabrielvinicius27/lemon_aneel_data_analysis/blob/main/images/carbon%20(1).png)
 
 O arquivo Python está armazenado em um bucket:
-![image](https://github.com/Gabrielvinicius27/lemon_aneel_data_analysis/images/carbon (2).png)
+![image](https://github.com/Gabrielvinicius27/lemon_aneel_data_analysis/blob/main/images/carbon%20(2).png)
 
 ## Próximos passos
 * Provisonar recursos utilizando terraform para termos infra as code.
